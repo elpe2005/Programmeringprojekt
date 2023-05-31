@@ -26,5 +26,35 @@ namespace Programmeringprojekt
         {
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            int etal;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            int dtal;
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+           int storlek = int.Parse(textBox1.Text);
+        }
     }
 }
